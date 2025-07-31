@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 
 <div id="bio" align="center">
   <p>
-    I'm a Computer Science student at AUEB, but more than that, I consider myself a designer of intelligent systems. I don't just see AI as a field of study; I see it as the ultimate toolkit for solving complex problems. My core passion lies in <b>AI Game Theory</b> and designing systems where multiple concepts work in concert to create something genuinely useful and transformative. I'm driven by the process of turning a challenging idea into a functional reality that makes life easier.
+    I'm a Computer Science graduate at AUEB, but more than that, I consider myself a designer of intelligent systems. I don't just see AI as a field of study; I see it as the ultimate toolkit for solving complex problems. My core passion lies in <b>AI Game Theory</b> and designing systems where multiple concepts work in concert to create something genuinely useful and transformative. I'm driven by the process of turning a challenging idea into a functional reality that makes life easier.
   </p>
 </div>
 
