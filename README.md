@@ -1,157 +1,35 @@
-<!--
-**acroticguy/acroticguy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm Alexandre
 
-Here are some ideas to get you started:
+I build AI systems and then try to figure out where they break.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Right now I'm CTO and founding AI engineer at [Culizen](https://culizen.gr), where language models read supplier invoices so restaurant kitchens can stop doing it by hand. I'm also a research engineer at Cloud Signals, working on European Space Agency 5G and SatCom projects. Before that: lidar pipelines for port automation, and a CS degree at AUEB with a specialization in applied mathematics.
 
-<div id="header" align="center">
-  <h1>
-    Hi there, I'm Alexandre 👋
-  </h1>
-  <h3>
-    A Machine Learning & Software Developer
-  </h3>
-</div>
+### What I'm working on
 
-<div id="bio" align="center">
-  <p>
-    I'm a Computer Science graduate at AUEB, but more than that, I consider myself a designer of intelligent systems. I don't just see AI as a field of study; I see it as the ultimate toolkit for solving complex problems. My core passion lies in <b>AI Game Theory</b> and designing systems where multiple concepts work in concert to create something genuinely useful and transformative. I'm driven by the process of turning a challenging idea into a functional reality that makes life easier.
-  </p>
-</div>
+- **Making models reliable on messy real-world data.** At Culizen I raised invoice-parsing accuracy from 89% to 97.2% across 7 suppliers. Most of the remaining errors were sneaky: the right number pulled from the wrong column, the client's phone number filed as the supplier's. Output that looks right and isn't is my favorite kind of bug to hunt.
+- **Evaluating every new model that comes out** against our own tasks, and switching when the numbers say so.
+- **Giving agents real tools.** I built an MCP server that lets AI work with our internal operations: CRM, meetings, action items, issues.
 
----
+### What I'm curious about
 
-### 💡 My Philosophy
+Reinforcement learning, mostly. I've been hooked since 2017, when OpenAI's bot beat Dendi at The International and pro players started learning from it. Models that teach us, and the question of how we know what they've actually learned, is what I want to spend the next few years on.
 
-*   **🤖 AI as a Tool, Not a Trophy:** The goal isn't just to build a model; it's to build a solution. AI is the most powerful tool in my arsenal for getting that done.
-*   **🛠️ Pragmatism Over Purity:** I will do whatever it takes to turn an idea into a working product. Whether it requires diving deep into algorithm fundamentals or integrating a third-party API, the end result is what matters.
-*   **🧩 Synergy in Design:** The most amazing creations come from combining different concepts—a custom algorithm with a sleek UI, computer vision with automation, or an LLM with a real-world workflow. I live to build those connections.
+### Selected projects
 
----
+| Project | What it is | Built with |
+| --- | --- | --- |
+| [**Backgammon AI**](https://github.com/acroticguy/aiAssignment1) | A full Backgammon game with an expectiminimax opponent that plans around random dice rolls. | Java |
+| [**Naive Bayes from scratch**](https://github.com/acroticguy/NaiveBayesClassifier) | A sentiment classifier for IMDB reviews written with nothing but NumPy, benchmarked against scikit-learn (82% accuracy). | Python, NumPy |
+| [**LiDIA**](https://github.com/acroticguy/AEPS) | A desktop assistant that reads Microsoft Teams messages with Gemini and turns them into tasks. | TypeScript, Gemini API, Electron |
+| [**MekaBase**](https://github.com/acroticguy/MekaBase) | A RAG agent that answers questions about the Mekanism Minecraft mod. | Python |
+| [**OPTCBot**](https://github.com/acroticguy/OPTCBot) | A bot that uses computer vision to see the screen and play a mobile game. | Python, OpenCV |
 
-### 💻 Tech Stack & Tools
+### Tools I reach for
 
-<table>
-  <tr>
-    <td align="center" width="150">
-      <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
-      <br><strong>Python</strong>
-    </td>
-    <td align="center" width="150">
-      <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
-      <br><strong>Java</strong>
-    </td>
-    <td align="center" width="150">
-      <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" />
-      <br><strong>TensorFlow</strong>
-    </td>
-    <td align="center" width="150">
-      <img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo-small.png" width="48" height="48" alt="Scikit-learn" />
-      <br><strong>Scikit-learn</strong>
-    </td>
-    <td align="center" width="150">
-      <img src="https://skillicons.dev/icons?i=opencv" width="48" height="48" alt="OpenCV" />
-      <br><strong>OpenCV</strong>
-    </td>
-    <td align="center" width="150">
-      <img src="https://skillicons.dev/icons?i=electron" width="48" height="48" alt="Electron" />
-      <br><strong>Electron</strong>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="150">
-      <img src="https://skillicons.dev/icons?i=pandas" width="48" height="48" alt="Pandas" />
-      <br><strong>Pandas</strong>
-    </td>
-    <td align="center" width="150">
-      <img src="https://skillicons.dev/icons?i=numpy" width="48" height="48" alt="NumPy" />
-      <br><strong>NumPy</strong>
-    </td>
-    <td align="center" width="150">
-      <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" />
-      <br><strong>PostgreSQL</strong>
-    </td>
-        <td align="center" width="150">
-      <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
-      <br><strong>Docker</strong>
-    </td>
-    <td align="center" width="150">
-      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
-      <br><strong>Git</strong>
-    </td>
-    <td align="center" width="150">
-      <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
-      <br><strong>Linux</strong>
-    </td>
-  </tr>
-</table>
+**Languages:** Python, TypeScript, SQL, C++, Java
+**AI:** Gemini / Vertex AI, RAG, LangGraph, MCP, NumPy, scikit-learn
+**Infrastructure:** GCP Cloud Run, Supabase / PostgreSQL, Docker, FastAPI, Node.js, CI/CD
 
----
+### Say hi
 
-### 🚀 My Featured Projects
-
-<table>
-  <thead>
-    <tr>
-      <th>Project</th>
-      <th>Description</th>
-      <th>Tech Stack</th>
-      <th>Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>LiDIA - AI Productivity Assistant</strong></td>
-      <td>A desktop AI assistant that uses the Gemini API to analyze incoming Microsoft Teams messages, understand context, and automate task creation to enhance productivity.</td>
-      <td><code>Python</code>, <code>Gemini API</code>, <code>Electron</code>, <code>Vite</code></td>
-      <td><a href="https://github.com/acroticguy/AEPS"><strong>Repo -></strong></a></td>
-    </tr>
-    <tr>
-      <td><strong>Sentiment Analysis Classifier</strong></td>
-      <td>A Naive Bayes model built from scratch with only NumPy to classify movie reviews. A deep dive into the fundamentals, benchmarked against scikit-learn with 82% accuracy.</td>
-      <td><code>Python</code>, <code>NumPy</code></td>
-      <td><a href="https://github.com/acroticguy/NaiveBayesClassifier"><strong>Repo -></strong></a></td>
-    </tr>
-    <tr>
-      <td><strong>UI Automation Bot</strong></td>
-      <td>A bot that uses computer vision with OpenCV to "see" the screen and PyAutoGUI to intelligently interact with game elements and automate gameplay.</td>
-      <td><code>Python</code>, <code>OpenCV</code>, <code>PyAutoGUI</code></td>
-      <td><a href="https://github.com/acroticguy/OPTCBot"><strong>Repo -></strong></a></td>
-    </tr>
-    <tr>
-      <td><strong>Backgammon AI Bot</strong></td>
-      <td>A full Backgammon game with an AI opponent powered by the Expectiminimax algorithm to handle probabilistic dice rolls and make strategic decisions under uncertainty.</td>
-      <td><code>Java</code></td>
-      <td><a href="https://github.com/acroticguy/aiAssignment1"><strong>Repo -></strong></a></td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### 📊 My GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=acroticguy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="acroticguy's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=acroticguy&layout=compact&theme=tokyonight&hide_border=true" alt="acroticguy's top languages" />
-</p>
-
----
-
-### 📫 Get In Touch
-
-<p align="center">
-  <a href="mailto:alexpoke60@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-   
-  <!-- Add your LinkedIn profile link here if you have one -->
-  <!-- <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> -->
-</p>
+[alexpoke60@gmail.com](mailto:alexpoke60@gmail.com) · [LinkedIn](https://linkedin.com/in/alexandre-nielsen-acro)
