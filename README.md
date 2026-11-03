@@ -1,18 +1,14 @@
 # Hi, I'm Alexandre
 
-I build AI systems and then try to figure out where they break.
+I like building things that work and get used. Code and machine learning are how I get there.
 
 Right now I'm CTO and founding AI engineer at [Culizen](https://culizen.gr), where language models read supplier invoices so restaurant kitchens can stop doing it by hand. I'm also a research engineer at Cloud Signals, working on European Space Agency 5G and SatCom projects. Before that: lidar pipelines for port automation, and a CS degree at AUEB with a specialization in applied mathematics.
 
-### What I'm working on
+### What I'm building
 
-- **Making models reliable on messy real-world data.** At Culizen I raised invoice-parsing accuracy from 89% to 97.2% across 7 suppliers. Most of the remaining errors were sneaky: the right number pulled from the wrong column, the client's phone number filed as the supplier's. Output that looks right and isn't is my favorite kind of bug to hunt.
-- **Evaluating every new model that comes out** against our own tasks, and switching when the numbers say so.
-- **Giving agents real tools.** I built an MCP server that lets AI work with our internal operations: CRM, meetings, action items, issues.
-
-### What I'm curious about
-
-Reinforcement learning, mostly. I've been hooked since 2017, when OpenAI's bot beat Dendi at The International and pro players started learning from it. Models that teach us, and the question of how we know what they've actually learned, is what I want to spend the next few years on.
+- **Culizen, end to end.** Hosting, database, auth, CI/CD, deployment on GCP, and everything that touches AI.
+- **Invoice parsing that holds up on messy real-world data.** I raised accuracy from 89% to 97.2% across 7 suppliers, and I re-run our evaluations every time a new model comes out.
+- **Tools for AI agents.** An MCP server that lets AI work with our internal operations: CRM, meetings, action items, issues.
 
 ### Selected projects
 
